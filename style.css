@@ -1,0 +1,83 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 847px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 542px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 407px;
+  }
+}
+
+body {
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-weight: lighter;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://unsplash.it/1000/500?random);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.card {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1, h2 {
+  font-family: 'Montserra', sans-serif;
+  font-weight: normal;
+}
+
+.banner h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #a0a0a0;
+  letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+.link {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
